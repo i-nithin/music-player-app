@@ -1,0 +1,109 @@
+@media screen and (max-width: 900px) {
+
+    .btn1{
+        width: 10%;
+    }
+
+    .btn2{
+        width: 80%;
+    }
+
+    .skip-btn{
+        font-size: 10px;
+    }
+
+    .play-btn{
+        font-size: 20px;
+    }
+   
+}
+
+.controls{
+    width: 100%;
+    height: 150px;
+
+}
+
+.progress-bar {
+    padding: 10px;
+    text-align: center;
+}
+
+.progress-bar input {
+    width: 90%;
+    background: transparent;
+    border: 0;
+    border-color: transparent;
+    border-radius: 0;
+    border-width: 0;
+    color: transparent;
+    height: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.btn-ctn{
+    width: 90%;
+    height: 60px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.btn1{
+    width: 20%;
+    height: 60px;
+
+    text-align: center;
+}
+
+.btn2{
+    width: 60%;
+    height: 60px;
+    display: flex;
+    text-align: center;
+}
+
+.like-btn{
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.skip-btn{
+    border: none;
+    margin: 10px 50px 0 50px;
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    cursor: pointer;
+}
+
+.play-btn{
+    margin-top: -2px;
+    border: none;
+    font-size: 35px;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    cursor: pointer;
+}
+
+

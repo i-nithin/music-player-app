@@ -1,0 +1,38 @@
+.ply-details{
+    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.details-img{
+    padding: 10px;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+.details-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    object-fit:fill;
+}
+
+.song-details{
+    padding: 20px;
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+
+    .ply-details{
+        width: 100%;
+    }
+   
+}

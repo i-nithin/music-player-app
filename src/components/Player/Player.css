@@ -1,0 +1,15 @@
+.player{
+    width:45%;
+    height: 500px;
+    margin: 100px auto;
+    /* background-color: aliceblue; */
+}
+
+@media screen and (max-width: 900px) {
+
+    .player{
+        width: 100%;
+    }
+   
+}
+

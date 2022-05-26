@@ -1,0 +1,67 @@
+.song-list{
+    height: 100vh;
+    width: 25%;
+    background-color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .song-list{
+        width :100%;
+    }
+    .songs{
+        margin-left: 30px;
+    }
+}
+
+.logo{
+    padding: 20px;
+    border: 2px solid white;
+    width: 70%;
+    margin: 30px auto;
+}
+.head{
+    text-align: center;
+}
+
+.head > h3{  
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+
+.list{
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.list:hover{
+    background-color: #191819;
+}
+.li{
+    display: flex;
+}
+
+
+
+img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.details{
+    margin-left: 15px;
+    color: white;
+    justify-self: flex-start;
+}
+
+
+
+
